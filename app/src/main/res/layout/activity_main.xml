@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/neutral"
     tools:context=".ui.MainActivity">
 
     <TextView
@@ -35,6 +36,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
+        android:backgroundTint="@color/green2"
         android:text="@string/confirmar"
         app:layout_constraintEnd_toEndOf="@id/et_nome_usuario"
         app:layout_constraintStart_toStartOf="@id/et_nome_usuario"
@@ -44,6 +46,7 @@
         android:id="@+id/rv_lista_repositories"
         android:layout_width="0dp"
         android:layout_height="0dp"
+        android:background="@color/neutral"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
